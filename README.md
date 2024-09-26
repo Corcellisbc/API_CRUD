@@ -18,7 +18,7 @@ Esta é uma API simples de gerenciamento de tarefas, construída com Node.js e E
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Corcellisbc/API_CRUD.git;
+   git clone https://github.com/Corcellisbc/API_CRUD.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
