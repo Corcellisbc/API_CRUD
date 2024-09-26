@@ -9,7 +9,7 @@ const tarefasRoutes = require("./routes/tarefaRoutes");
 
 // Configurando as rotas da aplicação para utilizar as rotas
 //relacionadas às tarefas
-app.use("/tarefas", tarefasRoutes);
+app.use("/api", tarefasRoutes);
 
 // Definindo a porta em que o servidor irá escutar
 const PORT = process.env.PORT || 3000;
