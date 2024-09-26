@@ -43,4 +43,4 @@ const excluirTarefa = (req, res) => {
 };
 
 // Exportando os controladores para serem utilizados em outros arquivos
-export default { listarTarefas, criarTarefa, atualizarTarefa, excluirTarefa };
+module.exports = { listarTarefas, criarTarefa, atualizarTarefa, excluirTarefa };
