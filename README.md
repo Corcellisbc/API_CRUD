@@ -32,7 +32,7 @@ Esta é uma API simples de gerenciamento de tarefas, construída com Node.js e E
    ```bash
    npm start
    ```
-5. Acesse a aplicação em: http://localhost:3000.
+5. Acesse a aplicação em: <a target="_blank" href="http://localhost:3000">LocalHost</a>.
 
 ## Rotas da API
 
