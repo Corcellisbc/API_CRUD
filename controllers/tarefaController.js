@@ -23,7 +23,7 @@ const atualizarTarefa = (req, res) => {
   const index = tarefas.findIndex((tarefa) => tarefa.id === parseInt(id)); // encontra o índice da tarefa na lista de tarefas
   if (index !== -1) {
     tarefas[index].descricao = descricao; // Atualiza a descrição da tarefa
-    res.json(tarefas[index]); // Retorna a tarefa atualizada como
+    res.json(tarefas[index]); // Retorna a tarefa atualizada como jSON
   } else {
     res.status(404).json({ mensagem: "Tarefa não encontrada" }); // Retorna um erro 404 se a tarefa não for encontrada
   }
