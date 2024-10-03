@@ -94,7 +94,7 @@ Atualiza a descrição de uma tarefa existente.
 
 <strong>Parâmetros:</strong>
 
-&bull; id (number): ID da tarefa a ser atualizada.
+&bull; id (number): ID da tarefa a ser atualizada.<br>
 &bull; descricao (string): Nova descrição da tarefa.
 
 <strong>Exemplo de Corpo de Requisição:</strong>
